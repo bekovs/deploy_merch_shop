@@ -1,0 +1,343 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif !important;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Montserrat" !important;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+/* The switch - the box around the slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 10vw;
+  height: 34px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  background-color: rgb(48, 45, 79);
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  border-radius: 5px;
+
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 34px;
+  width: 5vw;
+  left: 0;
+  bottom: 0;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+
+  border-radius: 5px;
+}
+
+input:checked + .slider {
+  background-color: rgb(204, 204, 204);
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px gray;
+  color: "white";
+}
+
+input:checked + .slider {
+  background-color: gray;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196f3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(5vw);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.navlinks a:hover {
+  color: lightgray !important;
+}
+
+.btn-catalog {
+  width: 10vw;
+  height: 3.5vw;
+  background-color: #2877ee !important;
+  color: white !important;
+}
+
+.inpSearch {
+  border: 3px solid blue !important;
+  width: 10vw !important;
+  outline: none;
+  font-size: 2.5vmin;
+  border-radius: 5px;
+}
+.paper {
+  border-top: none !important;
+}
+.footer-dark {
+  padding: 50px 0;
+  color: #f0f9ff;
+  background-color: #252734;
+  bottom: 0 !important;
+}
+
+.footer-dark h3 {
+  margin-top: 0;
+  margin-bottom: 12px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.footer-dark ul {
+  padding: 0;
+  list-style: none;
+  line-height: 1.6;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.footer-dark ul a {
+  color: inherit;
+  text-decoration: none;
+  opacity: 0.6;
+}
+
+.footer-dark ul a:hover {
+  opacity: 0.8;
+}
+
+@media (max-width: 767px) {
+  .footer-dark .item:not(.social) {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+}
+
+.footer-dark .item.text {
+  margin-bottom: 36px;
+}
+
+@media (max-width: 767px) {
+  .footer-dark .item.text {
+    margin-bottom: 0;
+  }
+}
+
+.footer-dark .item.text p {
+  opacity: 0.6;
+  margin-bottom: 0;
+}
+
+.css-6hp17o-MuiList-root-MuiMenu-list div {
+  width: 100% !important;
+}
+
+.css-6hp17o-MuiList-root-MuiMenu-list div button {
+  width: 100% !important;
+}
+
+.inpSearch {
+  border: 3px solid blue !important;
+  width: 10vw !important;
+  outline: none;
+  font-size: 2.5vmin;
+  border-radius: 5px;
+}
+.paper {
+  border-top: none !important;
+}
+.footer-dark {
+  width: 100%;
+  /* position: absolute; */
+  bottom: 0;
+  padding: 50px 0;
+  color: #f0f9ff;
+  background-color: #252734;
+}
+
+.footer-dark h3 {
+  margin-top: 0;
+  margin-bottom: 12px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.footer-dark ul {
+  padding: 0;
+  list-style: none;
+  line-height: 1.6;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.footer-dark ul a {
+  color: inherit;
+  text-decoration: none;
+  opacity: 0.6;
+}
+
+.footer-dark ul a:hover {
+  opacity: 0.8;
+}
+
+@media (max-width: 767px) {
+  .footer-dark .item:not(.social) {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+}
+
+.footer-dark .item.text {
+  margin-bottom: 36px;
+}
+
+@media (max-width: 767px) {
+  .footer-dark .item.text {
+    margin-bottom: 0;
+  }
+}
+
+.footer-dark .item.text p {
+  opacity: 0.6;
+  margin-bottom: 0;
+}
+
+.footer-dark .item.social {
+  text-align: center;
+}
+
+@media (max-width: 991px) {
+  .footer-dark .item.social {
+    text-align: center;
+    margin-top: 20px;
+  }
+}
+
+.footer-dark .item.social > a {
+  font-size: 20px;
+  width: 36px;
+  height: 36px;
+  line-height: 36px;
+  display: inline-block;
+  text-align: center;
+  margin: 0 8px;
+  color: #fff;
+  opacity: 0.75;
+}
+
+.footer-dark .item.social > a:hover {
+  opacity: 0.9;
+}
+
+.footer-dark .copyright {
+  text-align: center;
+  padding-top: 24px;
+  opacity: 0.3;
+  font-size: 13px;
+  margin-bottom: 0;
+}
+
+.credit-card-box .panel-title {
+  display: inline;
+  font-weight: bold;
+}
+.credit-card-box .form-control.error {
+  border-color: red;
+  outline: 0;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(255, 0, 0, 0.6);
+}
+.credit-card-box label.error {
+  font-weight: bold;
+  color: red;
+  padding: 2px 8px;
+  margin-top: 2px;
+}
+.credit-card-box .payment-errors {
+  font-weight: bold;
+  color: red;
+  padding: 2px 8px;
+  margin-top: 2px;
+}
+.credit-card-box label {
+  display: block;
+}
+/* The old "center div vertically" hack */
+.credit-card-box .display-table {
+  display: table;
+}
+.credit-card-box .display-tr {
+  display: table-row;
+}
+.credit-card-box .display-td {
+  display: table-cell;
+  vertical-align: middle;
+  width: 50%;
+}
+/* Just looks nicer */
+.credit-card-box .panel-heading img {
+  min-width: 180px;
+}
+.navbar-burger {
+  display: none !important;
+}
+
+@media screen and (max-width: 700px) {
+  .navbar {
+    display: none !important;
+  }
+
+  .navbar-burger {
+    display: flex !important;
+  }
+}

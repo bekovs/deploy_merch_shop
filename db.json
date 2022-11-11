@@ -1,0 +1,88 @@
+{
+  "users": [
+    {
+      "email": "sultan@gmail.com",
+      "password": "$2a$10$gFwh40gxPlxCFRbikEfvAOWnsU2UUiOpcsc1JDCLtcKLTba6PhMoC",
+      "admin": true,
+      "id": 2
+    },
+    {
+      "email": "ass@ass",
+      "password": "$2a$10$xb3pMtQD6wMyNvXL5un4VuyQBoGOYuGumO/9MzNCs3r2jXE7ohT5e",
+      "admin": false,
+      "id": 3
+    },
+    {
+      "email": "emir.akimzhanov@gmail.com",
+      "password": "$2a$10$I.ybjugpe6y4Y68QrILuO.tHOdnXUvwa1QvDNe4JRRbpd5O5t3zwK",
+      "admin": true,
+      "id": 9
+    }
+  ],
+  "products": [
+    {
+      "title": "Hoodie",
+      "description": "Super comfy hoodie for you",
+      "price": 60,
+      "image": "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1627492161-filson-prospector-hoodie-blue-1627491769.jpg",
+      "category": "clothes",
+      "id": 1
+    },
+    {
+      "title": "Tshirt print",
+      "description": "Tshirt with stylish print",
+      "price": 40,
+      "image": "https://files.inkmonk.com/site/20220321_135026359960_745350_Unisex-Round-Neck-T-shirts.png",
+      "category": "clothes",
+      "id": 3
+    },
+    {
+      "title": "Hoodie print",
+      "description": "Comfy hoodie with print",
+      "price": 75,
+      "image": "https://images.backstreetmerch.com/images/products/bands/clothing/nas/bsi_nas08.jpg",
+      "category": "clothes",
+      "id": 4
+    },
+    {
+      "title": "Hoodie fx",
+      "description": "FX dont know what is it",
+      "price": 75,
+      "image": "https://ae01.alicdn.com/kf/HTB18IHQazDuK1Rjy1zjq6zraFXaP/New-Fashion-Back-Face-Print-Black-Hoodies-Boyfriend-Korean-Style-Women-Vintage-Sweatshirt-Hooded-Tops-Woman.jpg_640x640.jpg",
+      "category": "clothes",
+      "id": 5
+    },
+    {
+      "title": "Sneakers ES",
+      "description": "Super fast",
+      "price": 120,
+      "image": "https://cdn.shopify.com/s/files/1/0107/9820/2938/products/CLOVETECH7940_a0e40a7b-4527-43cc-b307-c93893129315_800x.jpg?v=1646350910",
+      "category": "sport",
+      "id": 6
+    },
+    {
+      "title": "Spider shoes",
+      "description": "Spider some mr spiderman",
+      "price": 130,
+      "image": "https://s.yimg.com/ny/api/res/1.2/fX332W0funVLPKR4_IIblw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MDtoPTY4OA--/https://s.yimg.com/uu/api/res/1.2/9Wnkqc2Rvg.RRieID3zHEw--~B/aD04Mzg7dz03ODA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/pop_sugar_uk_fashion_37/26376d659b52174df4ccdf54c8a707f1",
+      "category": "sport",
+      "id": 7
+    },
+    {
+      "title": "ES bottle",
+      "description": "bottle for you",
+      "price": 10,
+      "image": "https://media-www.canadiantire.ca/product/living/kitchen/food-storage/1424902/manna-2-2l-water-bottle-ec7acc5d-73c3-4664-b52e-d2f92d5130a5.png",
+      "category": "office",
+      "id": 8
+    },
+    {
+      "title": "Umbrella",
+      "description": "New collection umbrella",
+      "price": 50,
+      "image": "https://pyxis.nymag.com/v1/imgs/6e7/efe/38cda0518ffdace0248db8c2fa9dadadbe-repel-teflon-umbrella.rsquare.w600.jpg",
+      "category": "office",
+      "id": 9
+    }
+  ]
+}
