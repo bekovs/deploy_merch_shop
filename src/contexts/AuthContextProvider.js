@@ -5,7 +5,7 @@ import { useNavigate } from "react-router-dom";
 export const authContext = React.createContext();
 export const useAuth = () => useContext(authContext);
 
-const API = "http://localhost:8000";
+const API = "https://merch-shop-js.herokuapp.com";
 
 const AuthContextProvider = ({ children }) => {
   const [user, setUser] = useState({});
